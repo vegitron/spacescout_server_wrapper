@@ -17,4 +17,4 @@ setup(name='SpaceScout-Server-Wrapper',
       version='1.0',
 )
 
-subprocess.call(["pip", "install", "-r", "requirements.txt"], cwd=submodule_path)
+subprocess.call(["pip", "install", "-r", "requirements/requirements.txt"], cwd=submodule_path)
