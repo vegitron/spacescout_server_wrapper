@@ -11,7 +11,7 @@ submodule_path = os.path.join(path, "spotseeker_server")
 
 subprocess.call(["git", "submodule", "init"], cwd=path)
 subprocess.call(["git", "submodule", "update"], cwd=path)
-subprocess.call(["git", "submodule", "foreach", "git", "pull", "origin", "master"], cwd=path)
+subprocess.call(["git", "submodule", "foreach", "git", "pull", "origin", "qa"], cwd=path)
 
 
 setup(name='SpaceScout-Server-Wrapper',
